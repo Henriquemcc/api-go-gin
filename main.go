@@ -6,5 +6,5 @@ import (
 
 func main() {
 	r := gin.Default()
-	r.Run("5000")
+	r.Run(":5000")
 }
