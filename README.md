@@ -8,7 +8,7 @@ Projeto desenvolvido no curso [Go e Gin: criando API rest com simplicidade](http
 
 Os arquivos oficiais do curso, desenvolvidos pelo instrutor, estão disponíveis no repositório do GitHub deste curso da Alura:
 
-[]()
+[Go e Gin: criando API rest com simplicidade](https://github.com/alura-cursos/api_rest_gin_go)
 
 ## Sites Externos
 
