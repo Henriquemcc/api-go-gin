@@ -3,6 +3,7 @@ package database
 import (
 	"log"
 
+	"github.com/Henriquemcc/api-go-gin/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
@@ -18,4 +19,5 @@ func ConectaComBancoDeDados() {
 	if err != nil {
 		log.Panic("Erro ao conectar com banco de dados")
 	}
+	DB.AutoMigrate(&models.Aluno{})
 }
