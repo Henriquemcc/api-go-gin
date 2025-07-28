@@ -26,13 +26,109 @@
 			"response": []
 		},
 		{
-			"name": "POST Aluno",
+			"name": "GET Aluno 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/alunos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Aluno 999",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/alunos/999",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos",
+						"999"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Aluno Gabriel",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
 					"raw": "{\n    \"nome\": \"Gabriel da Silva\",\n    \"cpf\": \"808.128.780-94\",\n    \"rg\": \"44.737.001-7\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/alunos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Aluno João",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"João da Silva\",\n    \"cpf\": \"808.128.780-94\",\n    \"rg\": \"44.737.001-7\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/alunos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Aluno José",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"José da Silva\",\n    \"cpf\": \"808.128.780-94\",\n    \"rg\": \"44.737.001-7\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
