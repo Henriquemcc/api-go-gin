@@ -168,6 +168,35 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "PATCH Aluno 2",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Joel da Silva\",\n    \"cpf\": \"898.128.780-94\",\n    \"rg\": \"54.737.001-7\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/alunos/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos",
+						"2"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
