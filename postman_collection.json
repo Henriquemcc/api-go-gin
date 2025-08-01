@@ -46,6 +46,27 @@
 			"response": []
 		},
 		{
+			"name": "GET Aluno CPF 898.128.780-94",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/alunos/cpf/898.128.780-94",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos",
+						"cpf",
+						"898.128.780-94"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "GET Aluno 999",
 			"request": {
 				"method": "GET",
@@ -100,7 +121,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"nome\": \"João da Silva\",\n    \"cpf\": \"808.128.780-94\",\n    \"rg\": \"44.737.001-7\"\n}",
+					"raw": "{\n    \"nome\": \"João da Silva\",\n    \"cpf\": \"808.128.780-95\",\n    \"rg\": \"44.737.001-7\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -128,7 +149,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"nome\": \"José da Silva\",\n    \"cpf\": \"808.128.780-94\",\n    \"rg\": \"44.737.001-7\"\n}",
+					"raw": "{\n    \"nome\": \"José da Silva\",\n    \"cpf\": \"808.128.780-96\",\n    \"rg\": \"44.737.001-7\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -150,7 +171,7 @@
 			"response": []
 		},
 		{
-			"name": "DELETE Aluno 1 Copy",
+			"name": "DELETE Aluno 1",
 			"request": {
 				"method": "DELETE",
 				"header": [],
