@@ -93,7 +93,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"nome\": \"Gabriel da Silva\",\n    \"cpf\": \"808.128.780-94\",\n    \"rg\": \"44.737.001-7\"\n}",
+					"raw": "{\n    \"nome\": \"Gabriel da Silva\",\n    \"cpf\": \"80812878094\",\n    \"rg\": \"447370017\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -121,7 +121,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"nome\": \"João da Silva\",\n    \"cpf\": \"808.128.780-95\",\n    \"rg\": \"44.737.001-7\"\n}",
+					"raw": "{\n    \"nome\": \"João da Silva\",\n    \"cpf\": \"80812878095\",\n    \"rg\": \"447370017\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -149,7 +149,119 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"nome\": \"José da Silva\",\n    \"cpf\": \"808.128.780-96\",\n    \"rg\": \"44.737.001-7\"\n}",
+					"raw": "{\n    \"nome\": \"José da Silva\",\n    \"cpf\": \"80812878096\",\n    \"rg\": \"447370017\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/alunos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Aluno Inválido 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"\",\n    \"cpf\": \"\",\n    \"rg\": \"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/alunos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Aluno Inválido 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Felipe da Silva\",\n    \"cpf\": \"\",\n    \"rg\": \"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/alunos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Aluno Inválido 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Felipe da Silva\",\n    \"cpf\": \"12345678901\",\n    \"rg\": \"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/alunos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Aluno Inválido 4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Felipe da Silva\",\n    \"cpf\": \"12345678901\",\n    \"rg\": \"987654321\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
