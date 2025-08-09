@@ -23,3 +23,5 @@ Os cursos em que estes arquivos foram desenvolvidos:
 Os sites externos acessados durante esse curso foram:
 
 https://github.com/gin-gonic/gin
+
+https://pkg.go.dev/gopkg.in/validator.v2#section-readme
